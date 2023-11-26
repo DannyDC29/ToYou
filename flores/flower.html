@@ -306,7 +306,27 @@
         </div>
       </div>
     </div>
-    
+
+    <audio id="miAudio">
+      <source src="recursos/Twice-Feel Special.mp3" type="audio/mp3">
+      Tu navegador no soporta la reproducción de audio.
+    </audio>
+
+    <style>
+      #miAudio {
+        display: none;
+      }
+    </style>
+
+<script>
+  var miAudio = document.getElementById("miAudio");
+  miAudio.play();
+</script>
+
+
+
+
+
     <script src="main.js"></script>
   </body>
 </html>
